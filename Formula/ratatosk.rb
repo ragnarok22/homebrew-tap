@@ -1,26 +1,26 @@
 class Ratatosk < Formula
   desc "A self-hosted, open-source alternative to ngrok"
   homepage "https://github.com/ragnarok22/ratatosk"
-  version "0.0.2"
+  version "0.0.3"
   license "GPL-3.0-or-later"
 
   on_macos do
     if Hardware::CPU.arm?
       url "https://github.com/ragnarok22/ratatosk/releases/download/v#{version}/ratatosk-cli-darwin-arm64.tar.gz"
-      sha256 "dcb32b0e0071fd1ee477229f180a80099c0ea4a23ca0653a0021a9c87a7c07e3"
+      sha256 "6b30e5c62eaba4f63bc179428e0417a3d9c373608350544abd6e75d815d7573b"
     elsif Hardware::CPU.intel?
       url "https://github.com/ragnarok22/ratatosk/releases/download/v#{version}/ratatosk-cli-darwin-amd64.tar.gz"
-      sha256 "83f90cb680d5c19822cfb67cf22ad5abb44f375a25a15121fce43729173bed8e"
+      sha256 "8c55dc0ab8cffbdc12d05208d4fb110a67082d449b970ed82356c7e65dde09f9"
     end
   end
 
   on_linux do
     if Hardware::CPU.arm?
       url "https://github.com/ragnarok22/ratatosk/releases/download/v#{version}/ratatosk-cli-linux-arm64.tar.gz"
-      sha256 "2dbd27fa9958343289845a5dca3e53cddd633b0970f38dd0e6302b1c8cfa0bf9"
+      sha256 "59903247db988067dc85fd55a2f7344ba83ceb3cdc9d4105689f27fab096f6b7"
     elsif Hardware::CPU.intel?
       url "https://github.com/ragnarok22/ratatosk/releases/download/v#{version}/ratatosk-cli-linux-amd64.tar.gz"
-      sha256 "213ac9e3abfdef86634f3a26c5aa4ae0e214bd49c19bee98d362eff9f3d54d28"
+      sha256 "d9741113c35df6ee098cd71b80b3d87003c35a498ff48a3db0878b7d3f7690a7"
     end
   end
 
