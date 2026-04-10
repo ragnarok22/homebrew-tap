@@ -1,0 +1,26 @@
+name: Verify Formulas
+
+on:
+  push:
+    branches: [main]
+    paths: ["Formula/**"]
+  pull_request:
+    paths: ["Formula/**"]
+
+jobs:
+  audit:
+    runs-on: macos-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Link tap
+        run: |
+          TAP_DIR="$(brew --repository)/Library/Taps/${{ github.repository_owner }}/homebrew-tap"
+          mkdir -p "$(dirname "$TAP_DIR")"
+          ln -s "$GITHUB_WORKSPACE" "$TAP_DIR"
+
+      - name: Audit formulas
+        run: brew audit --tap ${{ github.repository_owner }}/tap
+
+      - name: Style check
+        run: brew style ${{ github.repository_owner }}/tap

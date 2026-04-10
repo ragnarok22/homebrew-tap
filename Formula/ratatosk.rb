@@ -1,5 +1,5 @@
 class Ratatosk < Formula
-  desc "A self-hosted, open-source alternative to ngrok"
+  desc "Self-hosted, open-source alternative to ngrok"
   homepage "https://github.com/ragnarok22/ratatosk"
   version "0.0.4"
   license "GPL-3.0-or-later"
