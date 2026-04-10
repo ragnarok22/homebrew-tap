@@ -1,9 +1,9 @@
 class Whereami < Formula
   desc "CLI utility that checks your internet information (IP, country)"
   homepage "https://github.com/ragnarok22/whereami"
-  url "https://github.com/ragnarok22/whereami/archive/446fb94f4d5eb9672101d13807167317c7633916.tar.gz"
-  version "0.1"
-  sha256 "30c57c73022f71b40aee2ecac1fa3fed57d04294ff0e0563d47898f99d85035e"
+  url "https://github.com/ragnarok22/whereami/archive/refs/tags/v0.0.1.tar.gz"
+  version "0.0.1"
+  sha256 "1d45d548bca56cfb2e1e5a4f02384e9a83add880665ed6d5351bba9d90d0c218"
   license "GPL-3.0"
 
   head "https://github.com/ragnarok22/whereami.git", branch: "main"
