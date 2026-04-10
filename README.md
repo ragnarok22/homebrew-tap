@@ -24,7 +24,7 @@ brew install ragnarok22/tap/whereami
 
 | Cask | Description | Version |
 |------|-------------|---------|
-| [ChimeDock](https://github.com/ragnarok22/ChimeDock) | macOS menu bar app that plays chime sounds for USB device events | 1.1.0 |
+| [ChimeDock](https://github.com/ragnarok22/ChimeDock) | Menu bar app that plays chime sounds for USB device events | 1.1.0 |
 
 ```sh
 brew install --cask ragnarok22/tap/chimedock

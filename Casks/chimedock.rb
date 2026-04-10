@@ -4,7 +4,7 @@ cask "chimedock" do
 
   url "https://github.com/ragnarok22/ChimeDock/releases/download/v#{version}/ChimeDock.dmg"
   name "ChimeDock"
-  desc "macOS menu bar app that plays chime sounds for USB device events"
+  desc "Menu bar app that plays chime sounds for USB device events"
   homepage "https://github.com/ragnarok22/ChimeDock"
 
   app "ChimeDock.app"
