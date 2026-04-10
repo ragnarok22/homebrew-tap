@@ -1,11 +1,11 @@
-name: Verify Formulas
+name: Verify Formulas and Casks
 
 on:
   push:
     branches: [main]
-    paths: ["Formula/**"]
+    paths: ["Formula/**", "Casks/**"]
   pull_request:
-    paths: ["Formula/**"]
+    paths: ["Formula/**", "Casks/**"]
 
 jobs:
   audit:
