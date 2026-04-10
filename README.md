@@ -1,5 +1,7 @@
 # Homebrew Tap
 
+[![Verify Formulas and Casks](https://github.com/ragnarok22/homebrew-tap/actions/workflows/verify-formulas.yml/badge.svg)](https://github.com/ragnarok22/homebrew-tap/actions/workflows/verify-formulas.yml)
+
 Custom [Homebrew](https://brew.sh) tap with formulas and casks for my projects.
 
 ## Usage
