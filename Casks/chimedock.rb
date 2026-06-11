@@ -7,5 +7,7 @@ cask "chimedock" do
   desc "Menu bar app that plays chime sounds for USB device events"
   homepage "https://github.com/ragnarok22/ChimeDock"
 
+  depends_on :macos
+
   app "ChimeDock.app"
 end
