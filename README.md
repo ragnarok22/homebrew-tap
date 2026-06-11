@@ -14,11 +14,13 @@ brew tap ragnarok22/tap
 
 | Formula | Description | Version |
 |---------|-------------|---------|
-| [ratatosk](https://github.com/ragnarok22/ratatosk) | Self-hosted, open-source alternative to ngrok | 0.0.4 |
-| [whereami](https://github.com/ragnarok22/whereami) | CLI utility that checks your internet information (IP, country) | 0.0.1 |
+| [ratatosk](https://github.com/ragnarok22/ratatosk) | Self-hosted, open-source alternative to ngrok | 0.0.6 |
+| [timer](https://github.com/ragnarok22/timer-go) | Terminal countdown timer with a large seven-segment display | 0.1.0 |
+| [whereami](https://github.com/ragnarok22/whereami) | CLI utility that checks your internet information (IP, country) | 1.0.1 |
 
 ```sh
 brew install ragnarok22/tap/ratatosk
+brew install ragnarok22/tap/timer
 brew install ragnarok22/tap/whereami
 ```
 
